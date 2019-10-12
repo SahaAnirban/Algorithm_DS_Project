@@ -1,0 +1,148 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ProjectSetupTest",
+            "request": "launch",
+            "mainClass": "ProjectSetupTest",
+            "projectName": "Algorithm_DS_Project_59586489"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AdjacencyListGraph",
+            "request": "launch",
+            "mainClass": "com.anisaha.adt.graphs.AdjacencyListGraph",
+            "projectName": "CodingProjects_c544b3d8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AdjacencyMatrixGraph",
+            "request": "launch",
+            "mainClass": "com.anisaha.adt.graphs.AdjacencyMatrixGraph",
+            "projectName": "CodingProjects_c544b3d8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - KnapSackBNB",
+            "request": "launch",
+            "mainClass": "com.anisaha.algorithm.branch_and_bound.KnapSackBNB",
+            "projectName": "CodingProjects_c544b3d8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NQueen",
+            "request": "launch",
+            "mainClass": "com.anisaha.algorithm.backtracking.NQueen",
+            "projectName": "CodingProjects_c544b3d8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PalindromePartitioning",
+            "request": "launch",
+            "mainClass": "com.anisaha.algorithm.backtracking.PalindromePartitioning",
+            "projectName": "CodingProjects_c544b3d8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Permutations",
+            "request": "launch",
+            "mainClass": "com.anisaha.algorithm.backtracking.Permutations",
+            "projectName": "CodingProjects_c544b3d8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Subsets",
+            "request": "launch",
+            "mainClass": "com.anisaha.algorithm.backtracking.Subsets",
+            "projectName": "CodingProjects_c544b3d8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ActivitySelection",
+            "request": "launch",
+            "mainClass": "com.anisaha.algorithm.greedy.ActivitySelection",
+            "projectName": "CodingProjects_c544b3d8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FractionalKnapsack",
+            "request": "launch",
+            "mainClass": "com.anisaha.algorithm.greedy.FractionalKnapsack",
+            "projectName": "CodingProjects_c544b3d8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InsertionSort",
+            "request": "launch",
+            "mainClass": "com.anisaha.sorting.InsertionSort",
+            "projectName": "CodingProjects_c544b3d8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EditStringDistance",
+            "request": "launch",
+            "mainClass": "com.anisaha.algorithm.dynamic_prog.EditStringDistance",
+            "projectName": "CodingProjects_c544b3d8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Knapsack",
+            "request": "launch",
+            "mainClass": "com.anisaha.algorithm.dynamic_prog.Knapsack",
+            "projectName": "CodingProjects_c544b3d8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestCommonSeq",
+            "request": "launch",
+            "mainClass": "com.anisaha.algorithm.dynamic_prog.LongestCommonSeq",
+            "projectName": "CodingProjects_c544b3d8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Fibonacci",
+            "request": "launch",
+            "mainClass": "com.anisaha.algorithm.dynamic_prog.Fibonacci",
+            "projectName": "CodingProjects_c544b3d8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InterPolationSearch",
+            "request": "launch",
+            "mainClass": "com.anisaha.searching.InterPolationSearch",
+            "projectName": "CodingProjects_c544b3d8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JumpSearch",
+            "request": "launch",
+            "mainClass": "com.anisaha.searching.JumpSearch",
+            "projectName": "CodingProjects_c544b3d8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BucketSort",
+            "request": "launch",
+            "mainClass": "com.anisaha.sorting.BucketSort",
+            "projectName": "CodingProjects_c544b3d8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BSTTester",
+            "request": "launch",
+            "mainClass": "com.anisaha.adt.tree.BSTTester"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BubbleSort",
+            "request": "launch",
+            "mainClass": "com.anisaha.sorting.BubbleSort"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CountingSort",
+            "request": "launch",
+            "mainClass": "com.anisaha.sorting.CountingSort"
+        }
+    ]
+}
