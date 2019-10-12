@@ -1,15 +1,12 @@
 # CodingProjects
 
-This is my personal project, this project serves as reference (code + documentation) for common and well known algorithms in Java and python (in progress)
-
-| Symbol  | Meaning |
-| ------------- | ------------- |
-| 🤯  | Incomplete  |
-| 💦  | Needs cleanup  |
+This is my personal project, this project serves as reference (code + documentation) for common and well known algorithms in Java.
 
 ## Analysis of Algorithms
 
-## Sorting Algorithms 💦
+* Time and Space complexity
+
+## Sorting Algorithms
 
 * Bubble Sort
 * Selection Sort
@@ -38,10 +35,10 @@ This is my personal project, this project serves as reference (code + documentat
 * Tree (Binary Tree, Binary Search Tree)
 * Symbol Tables (Ordered & Un-Ordered ST implementation)
 * Priority Queue (Using Min-Heap implementation)
-* Graphs 🤯
+* Graphs
 * String Algorithms 🤯
 
-## Algorithm Paradigm 💦
+## Algorithm Paradigm
 
 * Divide and Conquer Algorithm
 * Greedy Algorithm
@@ -54,12 +51,11 @@ This is my personal project, this project serves as reference (code + documentat
 * [VS Code](https://code.visualstudio.com/)
 * [IntelliJ Idea](https://www.jetbrains.com/idea/)
 
-_Compiling Markdown into HTML_
-https://code.visualstudio.com/docs/languages/markdown#_compiling-markdown-into-html
-
 #### Disclaimer
 
 I have to consolidated the data from various internet references, and is subject to rights of original author or license restriction. The project provides no guarantee or warranty of any kind.
 
 #### License
 GNU General Public License v3.0
+And Subject to license of original authors.
+Copyright &copy; 2017, 2019, Anirban Saha
