@@ -56,6 +56,8 @@ This is my personal project, this project serves as reference (code + documentat
 I have to consolidated the data from various internet references, and is subject to rights of original author or license restriction. The project provides no guarantee or warranty of any kind.
 
 #### License
-GNU General Public License v3.0
-And Subject to license of original authors.
-Copyright &copy; 2017, 2019, Anirban Saha
+
+GNU General Public License v3.0  
+and Subject to license of original authors.  
+
+Copyright &copy; 2017, 2019, Anirban Saha  
