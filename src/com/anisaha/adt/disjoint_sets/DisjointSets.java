@@ -3,6 +3,7 @@ package com.anisaha.adt.disjoint_sets;
 import java.util.HashMap;
 import java.util.Map;
 
+// Linked List representation of disjoint sets
 public class DisjointSets {
     private Map<Long, Node> map = new HashMap<>();
 
@@ -80,7 +81,5 @@ public class DisjointSets {
         System.out.println(ds.findSet(5));
         System.out.println(ds.findSet(6));
         System.out.println(ds.findSet(7));
-
     }
-
 }

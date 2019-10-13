@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CombinationSum",
+            "request": "launch",
+            "mainClass": "com.anisaha.algorithm.backtracking.CombinationSum",
+            "projectName": "Algorithm_DS_Project_59586489"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ProjectSetupTest",
             "request": "launch",
             "mainClass": "ProjectSetupTest",
