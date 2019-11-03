@@ -6,6 +6,9 @@ import com.anisaha.adt.graphs.representation.Vertex;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class MinNoOfEdgesBetweenVertices {
     private int minNoOfEdges = Integer.MAX_VALUE;
     private int edgeCount = 0;
@@ -53,5 +56,4 @@ public class MinNoOfEdgesBetweenVertices {
         MinNoOfEdgesBetweenVertices obj = new MinNoOfEdgesBetweenVertices(graph);
         System.out.println("The minimum number of edges between 0 and 3 vertex is: " + obj.getMinNoOfEdges(0, 3));
     }
-
 }

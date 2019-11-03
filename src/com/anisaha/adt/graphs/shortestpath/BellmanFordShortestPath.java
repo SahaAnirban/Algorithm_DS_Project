@@ -5,10 +5,12 @@ import com.anisaha.adt.graphs.representation.Graph;
 import com.anisaha.adt.graphs.representation.Vertex;
 import com.anisaha.utilities.NegativeWeightCycleException;
 
-import java.math.BigInteger;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class BellmanFordShortestPath {
     Graph<Integer> graph;
 

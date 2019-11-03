@@ -2,6 +2,9 @@ package com.anisaha.algorithm.greedy;
 
 import java.util.Arrays;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class ActivitySelection {
 
     public static void printActivitySelections(Activity[] activities) {

@@ -4,6 +4,9 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class GraphBFS {
     private int vertexCount;
     private LinkedList<Integer>[] adj_list;

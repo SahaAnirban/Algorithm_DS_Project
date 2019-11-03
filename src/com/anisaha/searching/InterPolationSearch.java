@@ -1,5 +1,8 @@
 package com.anisaha.searching;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class InterPolationSearch {
     private static int interpolationSearch(int[] arr, int value) {
         int low = 0, high = arr.length - 1;

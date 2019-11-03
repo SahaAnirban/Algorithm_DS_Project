@@ -1,8 +1,11 @@
 package com.anisaha.adt.symboltables;
 
-/* Robert Sedgewick implementation
- * Un-ordered LinkedList based implementation of Symbol Tables
- * */
+/**
+ * Robert Sedgewick implementation, Un-ordered LinkedList based implementation
+ * of Symbol Tables
+ * 
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class SeparateChainingHashST<Key, Value> {
     private static final int INITIAL_CAPACITY = 4;
 
@@ -46,7 +49,6 @@ public class SeparateChainingHashST<Key, Value> {
         return null;
     }
 
-
     public void put(Key key, Value value) {
         if (key == null)
             throw new IllegalArgumentException("argument to put is null");
@@ -78,7 +80,7 @@ public class SeparateChainingHashST<Key, Value> {
         int i = getHash(key);
         buckets[i] = remove(buckets[i], key);
 
-        //halve the capacity of the table
+        // halve the capacity of the table
         if (capacity > INITIAL_CAPACITY && size <= 2 * capacity)
             resize(capacity / 2);
     }
@@ -98,8 +100,7 @@ public class SeparateChainingHashST<Key, Value> {
         return get(key) != null;
     }
 
-
-    //remove key in linked list beginning node startNode
+    // remove key in linked list beginning node startNode
     private Node remove(Node startNode, Key key) {
         if (startNode == null)
             return null;

@@ -4,6 +4,9 @@ import com.anisaha.adt.linkedlist.SLinkedList;
 
 import java.util.NoSuchElementException;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class StackInList {
     protected SLinkedList list = new SLinkedList();
 

@@ -8,6 +8,9 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class ArticulationPointInGraph<T> {
     private int time;
     private Set<Vertex<T>> visited;

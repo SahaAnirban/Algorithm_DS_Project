@@ -2,6 +2,9 @@ package com.anisaha.adt.priorityqueue;
 
 import java.util.*;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class HeapPriorityQueue<K, V> extends AbstractPriorityQueue<K, V> {
     protected List<Entry<K, V>> heap = new ArrayList<>();
 
@@ -23,7 +26,7 @@ public class HeapPriorityQueue<K, V> extends AbstractPriorityQueue<K, V> {
 
     private void buildHeap() {
         int startIndex = parent(size() - 1); // start with parent of last entry
-        for (int j = startIndex; j >= 0; j--)   // loop till the root
+        for (int j = startIndex; j >= 0; j--) // loop till the root
             bubbleDownHeap(j);
     }
 
@@ -92,7 +95,7 @@ public class HeapPriorityQueue<K, V> extends AbstractPriorityQueue<K, V> {
 
     /* Move element higher to maintain the heap property */
     protected void bubbleUpHeap(int j) {
-        while (j > 0) { //continue till reaching the root
+        while (j > 0) { // continue till reaching the root
             int p = parent(j);
 
             // min-heap property verified
@@ -141,8 +144,8 @@ public class HeapPriorityQueue<K, V> extends AbstractPriorityQueue<K, V> {
     }
 
     public static void main(String[] args) {
-        String[] task = new String[]{"a", "b", "c", "d", "e"};
-        Integer[] priorities = new Integer[]{2, 3, 4, 5, 6};
+        String[] task = new String[] { "a", "b", "c", "d", "e" };
+        Integer[] priorities = new Integer[] { 2, 3, 4, 5, 6 };
 
         PriorityQueue<String, Integer> queue = new HeapPriorityQueue<>(task, priorities);
         ((HeapPriorityQueue<String, Integer>) queue).checkHeapIntegrity();

@@ -5,8 +5,10 @@ import com.anisaha.adt.graphs.representation.Vertex;
 
 import java.util.*;
 
-/* Time complexity is O(E + V)
- * Space complexity  is O(V)
+/**
+ * Time complexity is O(E + V) & Space complexity is O(V)
+ * 
+ * @author Anirban Saha (astle.theauthor@gmail.com)
  */
 public class TarjanStronglyConnected {
     // holds time when vertex was discovered in DFS tree

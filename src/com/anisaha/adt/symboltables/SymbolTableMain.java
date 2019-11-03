@@ -1,5 +1,8 @@
 package com.anisaha.adt.symboltables;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class SymbolTableMain {
     public static void main(String[] args) {
         SeparateChainingHashST<String, Integer> st = new SeparateChainingHashST<>();
@@ -49,7 +52,7 @@ public class SymbolTableMain {
         System.out.println("size of the Linear Probing Hash ST " + st4.size());
         System.out.println();
 
-        BinarySearchTreeST<String, Integer> st5 = new BinarySearchTreeST<>(); //ordered ST
+        BinarySearchTreeST<String, Integer> st5 = new BinarySearchTreeST<>(); // ordered ST
         st5.put("a", 22);
         st5.put("bc", 33);
         st5.put("b", 44); // insert in-between

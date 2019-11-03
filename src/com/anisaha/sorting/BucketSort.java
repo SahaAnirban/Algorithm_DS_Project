@@ -2,6 +2,9 @@ package com.anisaha.sorting;
 
 import java.util.*;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class BucketSort {
 
     public static List<Double> bucket_sort(double[] arr , int n){

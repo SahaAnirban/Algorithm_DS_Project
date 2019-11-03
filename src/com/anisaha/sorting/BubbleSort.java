@@ -2,6 +2,9 @@ package com.anisaha.sorting;
 
 import com.anisaha.utilities.ArrayUtilities;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class BubbleSort {
 
     public static void bubble_sort(int[] arr) {

@@ -2,6 +2,9 @@ package com.anisaha.sorting;
 
 import com.anisaha.utilities.ArrayUtilities;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class SelectionSort {
 
     public static void selection_sort(int[] arr) {

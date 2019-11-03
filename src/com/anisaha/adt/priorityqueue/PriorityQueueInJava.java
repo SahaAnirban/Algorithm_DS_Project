@@ -2,18 +2,19 @@ package com.anisaha.adt.priorityqueue;
 
 import java.util.PriorityQueue;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class PriorityQueueInJava {
     public static void main(String[] args) {
-        PriorityQueue<Student> pq = new PriorityQueue<>(5,
-                (Student st1, Student st2) -> {
-                    if (st1.cgpa < st2.cgpa)
-                        return 1;
-                    else if (st1.cgpa > st2.cgpa)
-                        return -1;
+        PriorityQueue<Student> pq = new PriorityQueue<>(5, (Student st1, Student st2) -> {
+            if (st1.cgpa < st2.cgpa)
+                return 1;
+            else if (st1.cgpa > st2.cgpa)
+                return -1;
 
-                    return 0;
-                });
-
+            return 0;
+        });
 
         // higher the cpga more the priority
         Student sharmaJiKaLadka = new Student("Rohit Sharma", 9.6);
@@ -27,12 +28,12 @@ public class PriorityQueueInJava {
 
         pq.spliterator().forEachRemaining(System.out::println);
 
-        /*while (!pq.isEmpty())
-            System.out.println(pq.poll());
-        */
+        /*
+         * while (!pq.isEmpty()) 
+         *     System.out.println(pq.poll());
+         */
     }
 }
-
 
 class Student {
     public String name;

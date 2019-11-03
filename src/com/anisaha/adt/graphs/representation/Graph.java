@@ -2,6 +2,11 @@ package com.anisaha.adt.graphs.representation;
 
 import java.util.*;
 
+/**
+ * Graph class representation, depends on Edge and Vertex classes
+ * 
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class Graph<T> {
     private List<Edge<T>> allEdges;
     private Map<Long, Vertex<T>> allVertices;

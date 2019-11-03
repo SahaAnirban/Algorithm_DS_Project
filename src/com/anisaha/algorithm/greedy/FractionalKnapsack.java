@@ -2,6 +2,9 @@ package com.anisaha.algorithm.greedy;
 
 import java.util.Arrays;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class FractionalKnapsack {
 
     private static double getKnapSackMaxValue(int[] wt, int[] value, int capacity) {
@@ -45,7 +48,7 @@ public class FractionalKnapsack {
         public Item(int weight, int value) {
             this.weight = weight;
             this.value = value;
-            costRatio = Double.valueOf(value / weight);
+            costRatio = (double) (value / weight);
         }
     }
 }

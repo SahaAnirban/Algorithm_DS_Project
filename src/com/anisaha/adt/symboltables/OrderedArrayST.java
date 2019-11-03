@@ -1,5 +1,8 @@
 package com.anisaha.adt.symboltables;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class OrderedArrayST<Key extends Comparable<Key>, Value> {
     private static final int INITIAL_CAPACITY = 8;
 
@@ -17,7 +20,7 @@ public class OrderedArrayST<Key extends Comparable<Key>, Value> {
         if (size > values.length)
             resize(2 * size);
 
-        //key already exists
+        // key already exists
         if (contains(key)) {
             int index = binarySearch(key);
             values[index] = value;
@@ -84,5 +87,4 @@ public class OrderedArrayST<Key extends Comparable<Key>, Value> {
     public boolean isEmpty() {
         return size == 0;
     }
-
 }

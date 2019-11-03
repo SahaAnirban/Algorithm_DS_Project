@@ -7,6 +7,9 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.Stack;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class CycleInDirectedGraph {
     public boolean containsCycle(Graph<Integer> graph) {
         Stack<Vertex<Integer>> recurStk = new Stack<>();

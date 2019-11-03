@@ -2,6 +2,9 @@ package com.anisaha.adt.graphs.shortestpath;
 
 import java.util.*;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class DijkstraShortestPath {
     private class Graph {
         private int verticesCount;

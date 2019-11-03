@@ -2,6 +2,9 @@ package com.anisaha.adt.priorityqueue;
 
 import java.util.Comparator;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public abstract class AbstractPriorityQueue<K, V> implements PriorityQueue<K, V> {
     protected static class PQEntity<K, V> implements Entry<K, V> {
         private K key;

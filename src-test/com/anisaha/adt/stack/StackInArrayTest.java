@@ -4,6 +4,9 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class StackInArrayTest {
 
     @Test

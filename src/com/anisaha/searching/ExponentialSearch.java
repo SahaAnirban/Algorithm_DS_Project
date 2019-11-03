@@ -2,6 +2,9 @@ package com.anisaha.searching;
 
 import java.util.Arrays;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class ExponentialSearch {
     public static int exponentialSearch(int arr[], int key) {
         int len = arr.length;

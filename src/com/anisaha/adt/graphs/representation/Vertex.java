@@ -3,6 +3,11 @@ package com.anisaha.adt.graphs.representation;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Vertex representation of the graph
+ * 
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class Vertex<T> {
     private long id;
     private T data;

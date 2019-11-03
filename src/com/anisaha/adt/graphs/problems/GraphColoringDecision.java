@@ -5,6 +5,9 @@ import com.anisaha.adt.graphs.representation.Vertex;
 import java.util.Arrays;
 import java.util.Map;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class GraphColoringDecision {
 
     Map<Vertex<Integer>, Integer> vertexColorMap;

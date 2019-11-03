@@ -1,5 +1,8 @@
 package com.anisaha.adt.linkedlist;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class LinkedListMain {
     public static void main(String[] args) {
         testSinglyLinkedList();

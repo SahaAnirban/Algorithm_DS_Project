@@ -6,6 +6,9 @@ import com.anisaha.adt.graphs.representation.Vertex;
 
 import java.util.*;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class KosarajuStronglyConnected {
     public List<Set<Vertex<Integer>>> getStronglyConnectedComponents(Graph<Integer> graph) {
         //vertices by finish time in reverse order

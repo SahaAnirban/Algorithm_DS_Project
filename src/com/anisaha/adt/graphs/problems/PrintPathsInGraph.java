@@ -6,6 +6,9 @@ import com.anisaha.adt.graphs.representation.Vertex;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class PrintPathsInGraph {
     public void printPaths(Vertex<Integer> from, Vertex<Integer> to) {
         Set<Vertex<Integer>> visited = new LinkedHashSet<>();

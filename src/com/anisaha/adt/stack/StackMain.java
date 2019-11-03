@@ -1,5 +1,8 @@
 package com.anisaha.adt.stack;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class StackMain {
     private StackMain() {
     }

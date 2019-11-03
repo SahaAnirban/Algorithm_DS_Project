@@ -7,7 +7,11 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.Stack;
 
-// topological ordering using DFS
+/**
+ * Topological ordering using DFS
+ * 
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class DFSTopologicalSort<T> {
     public Stack<Vertex<T>> topSort(Graph<T> graph) {
         Stack<Vertex<T>> stack = new Stack<>();

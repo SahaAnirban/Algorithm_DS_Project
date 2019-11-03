@@ -2,6 +2,9 @@ package com.anisaha.adt.graphs.traversal;
 
 import java.util.*;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class GraphDFS {
     private int vertexCount;
     private LinkedList<Integer>[] adj_list;

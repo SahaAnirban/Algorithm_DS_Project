@@ -1,5 +1,8 @@
 package com.anisaha.adt.symboltables;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class LinearProbingHashST<Key, Value> {
     private int size;
     private int capacity;
@@ -100,5 +103,4 @@ public class LinearProbingHashST<Key, Value> {
     private int hash(Key key) {
         return (key.hashCode() & 0x7fffffff) % capacity;
     }
-
 }

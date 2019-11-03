@@ -9,8 +9,10 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * Runtime and space complexity for both the techniques is O(v)
- * where v is total number of vertices in the graph.
+ * Runtime and space complexity for both the techniques is O(v) where v is total
+ * number of vertices in the graph.
+ * 
+ * @author Anirban Saha (astle.theauthor@gmail.com)
  */
 public class CycleInUnDirectedGraph<T> {
     private Graph<T> graph;
@@ -37,7 +39,7 @@ public class CycleInUnDirectedGraph<T> {
         visited.add(v);
 
         for (Vertex<T> adjV : v.getAdjacentVertexes()) {
-            if (adjV.equals(parent)) //ignore in un-directed graph
+            if (adjV.equals(parent)) // ignore in un-directed graph
                 continue;
 
             if (visited.contains(adjV))

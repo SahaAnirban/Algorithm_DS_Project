@@ -1,5 +1,8 @@
 package com.anisaha.adt.linkedlist;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class SLinkedList {
     protected Node head;
     private int size = 0;

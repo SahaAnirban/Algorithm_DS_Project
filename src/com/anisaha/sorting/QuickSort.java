@@ -2,6 +2,9 @@ package com.anisaha.sorting;
 
 import com.anisaha.utilities.ArrayUtilities;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class QuickSort {
     public static void quickSort(int[] arr, int start, int end) {
         //if(start >= end)

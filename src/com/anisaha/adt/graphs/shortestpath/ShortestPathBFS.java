@@ -5,6 +5,9 @@ import com.anisaha.adt.graphs.representation.Vertex;
 
 import java.util.*;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class ShortestPathBFS {
     private final List<List<Vertex<Integer>>> allShortestPaths = new ArrayList<>();
 

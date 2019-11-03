@@ -1,5 +1,8 @@
 package com.anisaha.adt.queue;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class QueueMain {
     public static void main(String[] args) {
         QueueInArray arrayQueue = new QueueInArray(5);

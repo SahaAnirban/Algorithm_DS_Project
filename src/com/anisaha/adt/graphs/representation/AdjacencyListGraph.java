@@ -4,7 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-// Adjacency List implementation of Directed Graph
+/**
+ * Adjacency List implementation of Directed Graph
+ * 
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class AdjacencyListGraph {
     private List<Vertex> vertices;
 

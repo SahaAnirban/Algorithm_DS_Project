@@ -2,6 +2,9 @@ package com.anisaha.adt.tree;
 
 import java.util.Stack;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class BinarySearchTree {
     private int pIndex = 0;
 

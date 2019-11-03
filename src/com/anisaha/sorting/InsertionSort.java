@@ -2,6 +2,9 @@ package com.anisaha.sorting;
 
 import com.anisaha.utilities.ArrayUtilities;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class InsertionSort {
 
     public static void insertion_sort(int[] arr) {

@@ -1,6 +1,10 @@
 package com.anisaha.adt.symboltables;
 
-/* Robert Sedgewick implementation*/
+/**
+ * Robert Sedgewick implementation
+ * 
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class UnorderedArrayST<Key, Value> {
     private static final int INITIAL_CAPACITY = 8;
 
@@ -82,5 +86,4 @@ public class UnorderedArrayST<Key, Value> {
         keys = newKeys;
         values = newValues;
     }
-
 }

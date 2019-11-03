@@ -1,5 +1,8 @@
 package com.anisaha.algorithm.dynamic_prog;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class LongestCommonSeq {
     public static String getLCS(String s1, String s2) {
         if (s1 == null || s2 == null)

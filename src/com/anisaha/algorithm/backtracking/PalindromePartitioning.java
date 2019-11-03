@@ -3,10 +3,12 @@ package com.anisaha.algorithm.backtracking;
 import java.util.ArrayList;
 import java.util.List;
 
-/*
- * Problem statement: Given a string s, partition s such that every substring of the partition is a palindrome.
- * */
-
+/**
+ * Problem statement: Given a string s, partition s such that every substring of
+ * the partition is a palindrome.
+ * 
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class PalindromePartitioning {
     public static List<List<String>> partition(String s) {
         List<List<String>> list = new ArrayList<>();
@@ -41,6 +43,5 @@ public class PalindromePartitioning {
         String input = "aab";
         System.out.println(partition(input));
     }
-
 
 }

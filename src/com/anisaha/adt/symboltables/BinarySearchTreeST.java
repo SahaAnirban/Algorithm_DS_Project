@@ -4,6 +4,9 @@ import java.util.LinkedList;
 import java.util.NoSuchElementException;
 import java.util.Queue;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class BinarySearchTreeST<Key extends Comparable<Key>, Value> {
     private Node root;
 
@@ -63,7 +66,7 @@ public class BinarySearchTreeST<Key extends Comparable<Key>, Value> {
         else if (compare > 0)
             node.right = put(node.right, key, value);
         else
-            node.value = value; //override the existing value
+            node.value = value; // override the existing value
 
         node.size = 1 + size(node.left) + size(node.right);
         return node;
@@ -164,7 +167,8 @@ public class BinarySearchTreeST<Key extends Comparable<Key>, Value> {
     }
 
     /**
-     * Returns the largest key in the symbol table less than or equal to {@code key}.
+     * Returns the largest key in the symbol table less than or equal to
+     * {@code key}.
      */
     private Node floor(Node node, Key key) {
         if (node == null)
@@ -199,7 +203,8 @@ public class BinarySearchTreeST<Key extends Comparable<Key>, Value> {
     }
 
     /**
-     * Returns the smallest key in the symbol table greater than or equal to {@code key}.
+     * Returns the smallest key in the symbol table greater than or equal to
+     * {@code key}.
      */
     private Node ceiling(Node node, Key key) {
         if (node == null)
@@ -242,7 +247,6 @@ public class BinarySearchTreeST<Key extends Comparable<Key>, Value> {
         else
             return node;
     }
-
 
     public int rank(Key key) {
         if (key == null)

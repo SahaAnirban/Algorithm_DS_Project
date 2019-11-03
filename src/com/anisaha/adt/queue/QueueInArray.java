@@ -2,6 +2,9 @@ package com.anisaha.adt.queue;
 
 import java.util.NoSuchElementException;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class QueueInArray {
     private int front, rear, size;
     private int[] arr;
@@ -45,7 +48,6 @@ public class QueueInArray {
     public int size() {
         return size;
     }
-
 
     public void printQueue() {
         if (rear >= front) {

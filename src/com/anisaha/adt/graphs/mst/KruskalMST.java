@@ -8,6 +8,9 @@ import com.anisaha.adt.graphs.representation.Vertex;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class KruskalMST {
     private Graph<Integer> graph;
 

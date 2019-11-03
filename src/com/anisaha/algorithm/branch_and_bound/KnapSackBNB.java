@@ -3,6 +3,9 @@ package com.anisaha.algorithm.branch_and_bound;
 import java.io.*;
 import java.util.*;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class KnapSackBNB {
     private int inputCount, bagCapacity;
     private int maxValue, bagWeight;
@@ -13,7 +16,7 @@ public class KnapSackBNB {
 
     public KnapSackBNB(List<Item> items, int itemsCount, int bagCapacity) {
         Item[] tempArr = new Item[itemsCount];
-        
+
         this.items = new Item[itemsCount + 1];
         this.pq = new PriorityQueue<>();
         this.inputCount = itemsCount;

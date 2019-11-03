@@ -9,6 +9,9 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class KahnTopologicalSort<T extends Comparable<T>> {
     private Queue<Vertex<T>> result;
 

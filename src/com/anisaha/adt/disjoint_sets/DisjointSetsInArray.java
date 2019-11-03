@@ -2,14 +2,20 @@ package com.anisaha.adt.disjoint_sets;
 
 import java.util.Arrays;
 
+/**
+ * Array representation of disjoint sets
+ * 
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class DisjointSetsInArray {
     private int[] array;
 
     /**
      * Construct a disjoint sets object.
      *
-     * @param numOfElements the initial number of elements also the initial number of disjoint sets,
-     *                      since every element is initially in its own set.
+     * @param numOfElements the initial number of elements also the initial number
+     *                      of disjoint sets, since every element is initially in
+     *                      its own set.
      **/
     public DisjointSetsInArray(int numOfElements) {
         array = new int[numOfElements];
@@ -17,7 +23,8 @@ public class DisjointSetsInArray {
     }
 
     /**
-     * union() unites two disjoint sets into a single set. A union-by-rank heuristic is used to choose the new root.
+     * union() unites two disjoint sets into a single set. A union-by-rank heuristic
+     * is used to choose the new root.
      *
      * @param elem1 the element 1 of either set.
      * @param elem2 the element 2 of either set.

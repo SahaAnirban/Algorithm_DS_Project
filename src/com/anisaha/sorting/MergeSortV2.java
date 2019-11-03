@@ -2,6 +2,9 @@ package com.anisaha.sorting;
 
 import com.anisaha.utilities.ArrayUtilities;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class MergeSortV2 {
     public static void mergeSort(int[] arr, int l, int r) {
         if (l < r) {

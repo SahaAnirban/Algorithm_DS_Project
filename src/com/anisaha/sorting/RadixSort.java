@@ -1,10 +1,12 @@
 package com.anisaha.sorting;
 
 import com.anisaha.utilities.ArrayUtilities;
-
 import java.util.Arrays;
 import java.util.Comparator;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class RadixSort {
     private static void count_sort(int[] arr, int n, int multiplier) {
         int[] outArr = new int[n];
@@ -30,7 +32,7 @@ public class RadixSort {
     }
 
     public static void main(String[] args) {
-        int arr[] = {10, 21, 17, 34, 44, 11, 654, 123};
+        int arr[] = { 10, 21, 17, 34, 44, 11, 654, 123 };
         int maxElement = Arrays.stream(arr).boxed().max(Comparator.naturalOrder()).get();
 
         radix_sort(arr, arr.length, maxElement);

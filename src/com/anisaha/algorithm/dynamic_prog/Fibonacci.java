@@ -1,6 +1,9 @@
 package com.anisaha.algorithm.dynamic_prog;
 
-// Demo for fibonacci series coded with dynamic programming
+/**
+ * Demo for fibonacci series coded with dynamic programming
+ * @author Anirban Saha (astle.theauthor@gmail.com) 
+ */
 public class Fibonacci {
     private static int fibonacci(int index) {
         if (index <= 1)
@@ -10,6 +13,7 @@ public class Fibonacci {
     }
 
     private static final int[] lookup = new int[100]; // initialized to 0
+
     private static int fibonacciTopDown(int fib_index) {
         if (lookup[fib_index] == 0) {
             if (fib_index <= 1)

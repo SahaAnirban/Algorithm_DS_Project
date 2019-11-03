@@ -2,6 +2,9 @@ package com.anisaha.adt.tree;
 
 import java.util.*;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class BSTTraversal {
     private BSTTraversal() { }
 
@@ -64,7 +67,7 @@ public class BSTTraversal {
             if (node.left != null)
                 queue.add(node.left);
 
-            //enqueue right child
+            // enqueue right child
             if (node.right != null)
                 queue.add(node.right);
         }

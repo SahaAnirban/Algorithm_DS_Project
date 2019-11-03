@@ -1,5 +1,8 @@
 package com.anisaha.searching;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class JumpSearch {
     private static int jumpSearch(int arr[], int value) {
         int len = arr.length;

@@ -1,5 +1,8 @@
 package com.anisaha.algorithm.dynamic_prog;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class EditStringDistance {
     private static int min(int a, int b, int c) {
         return Math.min(a, Math.min(b, c));

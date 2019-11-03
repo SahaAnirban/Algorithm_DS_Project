@@ -1,5 +1,8 @@
 package com.anisaha.searching;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class FibonacciSearch {
     public static int fibonacciSearch(int[] arr, int key) {
         int fib_m2 = 0; // (m-2)th fib no.
@@ -20,13 +23,13 @@ public class FibonacciSearch {
         while (fib > 1) {
             int i = Math.min(offset + fib_m2, len - 1);
 
-            // cut the subarray array from offset to i
+            // cut the sub-array array from offset to i
             if (arr[i] < key) {
                 fib = fib_m1;
                 fib_m1 = fib_m2;
                 fib_m2 = fib - fib_m1;
                 offset = i;
-            } else if (arr[i] > key) { // cut the subarray after i+1
+            } else if (arr[i] > key) { // cut the sub-array after i+1
                 fib = fib_m2;
                 fib_m1 = fib_m1 - fib_m2;
                 fib_m2 = fib - fib_m1;

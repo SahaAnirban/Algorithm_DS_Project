@@ -2,6 +2,9 @@ package com.anisaha.adt.stack;
 
 import java.util.NoSuchElementException;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class StackInArray {
     protected int top, size, len;
     protected int[] arr;

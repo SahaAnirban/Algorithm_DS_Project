@@ -1,5 +1,8 @@
 package com.anisaha.adt.tree;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class BinaryTree {
     protected TreeNode root;
 

@@ -3,7 +3,11 @@ package com.anisaha.adt.disjoint_sets;
 import java.util.HashMap;
 import java.util.Map;
 
-// Linked List representation of disjoint sets
+/**
+ * Linked List representation of disjoint sets
+ * 
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class DisjointSets {
     private Map<Long, Node> map = new HashMap<>();
 

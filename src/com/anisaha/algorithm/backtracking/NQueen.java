@@ -2,6 +2,9 @@ package com.anisaha.algorithm.backtracking;
 
 import java.util.Arrays;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class NQueen {
     private static int solutions = 1;
 

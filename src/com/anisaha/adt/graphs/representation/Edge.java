@@ -1,5 +1,10 @@
 package com.anisaha.adt.graphs.representation;
 
+/**
+ * Edge representation of Graph
+ * 
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class Edge<T> {
     private boolean isDirected = false;
     private Vertex<T> vertex_1;

@@ -2,6 +2,9 @@ package com.anisaha.adt.graphs.mst;
 
 import java.util.*;
 
+/**
+ * @author Anirban Saha (astle.theauthor@gmail.com)
+ */
 public class PrimsMST {
 
     private class Graph {

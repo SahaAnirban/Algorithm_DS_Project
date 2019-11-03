@@ -1,11 +1,12 @@
 package com.anisaha.adt.graphs.representation;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
-/*
+/**
  * UnDirected Graph Adjacency Matrix Representation
+ * 
+ * @author Anirban Saha (astle.theauthor@gmail.com)
  */
 public class AdjacencyMatrixGraph {
     private int vertexCount;
@@ -92,5 +93,4 @@ public class AdjacencyMatrixGraph {
         System.out.println("In-Degree of vertex 2: " + graph.getInDegree(2));
         System.out.println("Neighbors of vertex 2: " + graph.getNeighbors(2));
     }
-
 }
