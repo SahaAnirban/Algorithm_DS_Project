@@ -1,6 +1,6 @@
 # CodingProjects
 
-This is my personal project, this project serves as reference (code + documentation) for common and well known algorithms in Java.
+This project serves as reference (code + documentation) for common and well known algorithms with brevity in mind.
 
 ## Analysis of Algorithms
 
@@ -29,24 +29,135 @@ This is my personal project, this project serves as reference (code + documentat
 
 ## Abstract DataTypes
 
-* Linked List (Singly Linked, Doubly Linked & Circular Linked)
-* Stack (array & linkedList implementation)
-* Queues (array & linkedList implementation)
-* Tree (Binary Tree, Binary Search Tree)
-* Symbol Tables (Ordered & Un-Ordered ST implementation)
-* Priority Queue (Using Min-Heap implementation)
-* Graphs
-* String Algorithms 🤯
+* <b>Linked List</b>
+    <details>
+    <summary>Topics</summary>
+        <ol>
+            <li><i>Singly</i> Linked List</li>
+            <li><i>Doubly</i> Linked List</li>
+            <li><i>Circular</i> Linked List</li>
+        </ol>
+    </details>
+* <b>Stack</b>
+    <details>
+    <summary>Topics</summary>
+        <ol>
+            <li><i>Array</i> Implementation</li>
+            <li><i>Linked List</i> Implementation</li>
+        </ol>
+    </details>
+* <b>Queues</b>
+    <details>
+    <summary>Topics</summary>
+        <ol>
+            <li><i>Array</i> Implementation</li>
+            <li><i>Linked List</i> Implementation</li>
+        </ol>
+    </details>
+* <b>Tree</b>
+    <details>
+    <summary>Topics</summary>
+        <ol>
+            <li><i>Binary</i> Tree</li>
+            <li><i>Binary Search</i> Tree</li>
+            <li><i>Tree Traversal</i> Tree</li>
+        </ol>
+    </details>
+* <b>Symbol Tables</b>
+    <details>
+    <summary>Topics</summary>
+        <ol>
+            <li><i>Hash Table</i> Introduction</li>
+            <li><i>Ordered</i> ST Implementation</li>
+            <li><i>Un-Ordered</i> ST Implementation</li>
+        </ol>
+    </details>
+* <b>Priority Queue</b>
+    <details>
+    <summary>Topics</summary>
+        <ol>
+            <li><i>Priority Queue</i> Introduction</li>
+            <li><i>Min-Heap</i> Implementation</li>
+        </ol>
+    </details>
+* <b>Graphs</b>
+    <details>
+    <summary>Topics</summary>
+        <ol>
+            <li>Graph <i>Representation</i></li>
+            <li>Graph <i>Theory</i></li>
+            <li>Graph <i>Traversal</i></li>
+            <li>Graph <i>Maximum Flow</i> Problems</li>
+            <li>Graph <i>Minimum Spanning Tree</i> Problems</li>
+            <li>Graph <i>Shortest Path</i> Problems</li>
+        </ol>
+    </details>
+* <b>String Algorithms</b>
+    <details>
+    <summary>Topics</summary>
+        <ol>
+            <li>String <i>Pattern Matching</i> Problems</li>
+            <li>String <i>Data Structures</i></li>
+        </ol>
+    </details>
+* <b>Disjoint Set / Union Find</b>
+    <details>
+    <summary>Topics</summary>
+        <ol>
+            <li>DS <i>Array</i> Implementation</li>
+            <li>DS <i>Linked List</i> Implementation</li>
+        </ol>
+    </details>
 
 ## Algorithm Paradigm
 
-* Divide and Conquer Algorithm
-* Greedy Algorithm
-* Dynamic Programming
-* Backtracking Algorithm
-* Branch and Bound Algorithm
+* <b>Divide and Conquer Algorithm</b>
+    <details>
+    <summary>Problems</summary>
+        <ol>
+            <li><i>Divide & Conquer Algorithm</i> Introduction</li>
+            <li><i>Quicksort</i> Algorithm</li>
+            <li><i>Merge Sort</i> Algorithm</li>
+            <li><i>Binary Search</i> Algorithm</li>
+        </ol>
+    </details>
+* <b>Greedy Algorithm</b>
+    <details>
+    <summary>Problems</summary>
+        <ol>
+            <li><i>Greedy Algorithm</i> Introduction</li>
+            <li><i>Activity Selection</i> Problem</li>
+            <li><i>Fractional Knapsack</i> Problem</li>
+        </ol>
+    </details>
+* <b>Dynamic Programming</b>
+    <details>
+    <summary>Problems</summary>
+        <ol>
+            <li><i>Dynamic Algorithm</i> Introduction</li>
+            <li><i>0-1 Knapsack</i> Problem</li>
+            <li><i>Longest Common Sequence</i> Problem</li>
+            <li><i>String Edit Distance</i> Problem</li>
+        </ol>
+    </details>
+* <b>Backtracking Algorithm</b>
+    <details>
+    <summary>Problems</summary>
+        <ol>
+            <li><i>BackTracking Algorithm</i> Introduction</li>
+            <li><i>N-Queen</i> Problem</li>
+        </ol>
+    </details>
+* <b>Branch and Bound Algorithm</b>
+    <details>
+    <summary>Problems</summary>
+        <ol>
+            <li><i>Branch & Bound Algorithm</i> Introduction</li>
+            <li><i>0-1 Knapsack</i> Problem when item weight is not integers</li>
+        </ol>
+    </details>
 
-### IDE used
+### IDE Used
 
 * [VS Code](https://code.visualstudio.com/)
 * [IntelliJ Idea](https://www.jetbrains.com/idea/)
@@ -57,7 +168,7 @@ I have to consolidated the data from various internet references, and is subject
 
 #### License
 
-GNU General Public License v3.0  
-and Subject to license of original authors.  
+GNU General Public License v3.0
+and Subject to license of original authors.
 
-Copyright &copy; 2017, 2019, Anirban Saha  
+Copyright &copy; 2017, 2019, Anirban Saha
