@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * @author Anirban Saha (astle.theauthor@gmail.com)
  */
-public class RabinKarpAlgorithm {
+public class RabinKarp {
     private static final int d = 256; // no. of range of characters in input string
     private static final int q = 101; // prime number for modulus operation
 
@@ -51,7 +51,7 @@ public class RabinKarpAlgorithm {
     }
 
     public static void main(String[] args) {
-        RabinKarpAlgorithm rka = new RabinKarpAlgorithm();
+        RabinKarp rka = new RabinKarp();
         String textInput = "AnirbanSaha";
         System.out.println("Pattern match found at index: " + rka.searchPattern(textInput.toCharArray(), "irban".toCharArray()));
         System.out.println("Pattern match found at index: " + rka.searchPattern(textInput.toCharArray(), "Saha".toCharArray()));
