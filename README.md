@@ -164,7 +164,7 @@ This project serves as reference (code + documentation) for common and well know
 
 #### Disclaimer
 
-I have consolidated the data from various internet and book references, and hence is subject to rights of the original author or license restriction. This project provides no guarantee or warranty of any kind, and the content of this project is available solely personal learning.
+I have consolidated the data from various internet and book references, and hence is subject to rights of the original author or license restriction. This project provides no guarantee or warranty of any kind, and the content of this project is available solely for personal learning.
 
 #### License
 
